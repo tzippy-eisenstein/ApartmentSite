@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* ערך גבוה מעל לשאר האלמנטים */
+
+ /* background-color: rgba(255, 255, 255, 0); רקע בשקיפות מוחלטת */
+background-color:#252926;
+}
+
+.main-nav a {
+  display: inline-block;
+  padding: 0px;
+  color: black; /* צבע הטקסט */
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+
+.main-nav a:hover {
+  /* background-color: rgba(211, 211, 211, 0.5); רקע עם שקיפות בעת hover */
+  color:antiquewhite
+}
+.main-nav {
+  display: flex;
+  align-items: center; /* למרכוז את הפריטים אנכית בקופסה */
+  width: 100%;
+}
+
+.main-nav a.active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px; /* גובה הקו */
+  background-color: #AF8C53; /* צבע הקו */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

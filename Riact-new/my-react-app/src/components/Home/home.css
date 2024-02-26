@@ -1,0 +1,43 @@
+.home-container {
+    position: relative;
+    width: 100%;
+    height: 105vh;
+    /* גובה התמונה יכול להיות כל שתרצה */
+    background-image: url('../../pic/Home.jpg');
+    /* כתובת התמונה */
+    background-size: cover;
+    /* התאמה אוטומטית של התמונה לרוחב ולגובה של הרקע */
+    background-position: center;
+    /* מיקום מרכזי של התמונה ברקע */
+}
+
+.button-container {
+    position: absolute;
+    bottom: 160px;
+    /* מרחק מהתחתית */
+    left: 20%;
+    /* מרכז התמונה */
+    transform: translateX(-50%);
+    /* הזזת האלמנט חצי רוחב שמאלה כדי להיות באמצע */
+    transform: translateX(-50%);
+    display: flex;
+    /* הוספת display: flex; כדי שהכפתורים ייעמדו בשורה אחת */
+    gap: 30px;
+    /* הוספת רווח בין הכפתורים */
+
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    color: #AF8C53;
+}
+
+.feigi {
+    color: white;
+    position: fixed;
+}

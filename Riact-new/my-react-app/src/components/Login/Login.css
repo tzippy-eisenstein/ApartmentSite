@@ -1,0 +1,75 @@
+.login-container {
+  position: relative;
+  height: 100vh;
+  background-image: url('../../pic/login.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-left: 20px;
+  /* margin-left: auto;
+  margin-right: 0; */
+  overflow-x: hidden;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px; /* הוספת שולים מעל הכיתוב */
+  background-color: white; /* קידום צבע הרקע ללבן */
+  padding: 20px; /* הוספת שולים מסביב לטופס */
+  border-radius: 8px; /* קידום הקפיציות של הטופס */
+  box-shadow: 0 0 40px -10px #000; /* קידום הצללים */
+}
+
+.form-container {
+  width: 440px;
+  height: 400px;
+  background: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 890px;
+  margin-right: 20px;
+  margin-top:90px ;
+}
+.login-form h3 {
+  margin-bottom: 20px;
+  color: #AF8C53;
+}
+
+.login-form h5 {
+  margin-bottom: 10px;
+  color: #AF8C53;
+}
+
+.input-register {
+  margin-bottom: 15px;
+}
+
+.btn-register {
+  margin-top: 20px;
+  background-color: #AF8C53;
+  color: black;
+  width: 35%;
+}
+
+.btn-register:hover {
+  background-color: #5a5a6e;
+  color: #fff;
+}
+
+.forget-password {
+  margin-top: 10px;
+  color: #AF8C53;
+  cursor: pointer;
+}
+
+.forget-password:hover {
+  text-decoration: underline;
+}
+
+.registration-message {
+  color: #AF8C53;
+  margin-top: 20px;
+}
